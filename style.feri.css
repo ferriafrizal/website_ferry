@@ -1,0 +1,252 @@
+/* Pengaturan body */
+
+body {
+	background-color	:gray;
+	text-align			:center;
+	font-family			:verdana, tahoma, helvetica;
+	font-size			:12px;
+}
+
+/* Pengaturan layout */
+#layout { 
+	width				:980px;
+	margin 				:auto;
+	text-align			:left;
+	padding				:2px;
+}
+
+/* Pengaturan Header */
+#header {
+	background 			:url(gambar/feri11.png);
+	background-repeat	:no-repeat;
+	background-size		:cover;
+	width				:980px;
+	height				:240px;
+	position			:relative;
+}
+
+/* Pengaturan Menu */
+#menu ul {
+	list-style-type 	: none;
+	margin 				: 0;
+	padding 			: 0;
+	overflow 			: hidden;
+	background-color 	: #0000880;
+}
+
+#menu li {
+	float				: left;
+}
+
+#menu li a, .dropbtn {
+	display 			: inline-block;
+	color 				: white;
+	text-align			: center;
+	padding 			: 14px 16px;
+	text-decoration		: none;
+}
+
+#menu li a:hover, .dropdown:hover .dropbtn {
+	background-color 	: red;
+}
+
+#menu li.dropdown {
+	display 			: inline-block;
+}
+
+#menu .dropdown-content {
+	display 			: none;
+	position 			: absolute;
+	background-color 	: #d7d7d7;
+	min-width 			: 160px;
+	box-shadow 			: 0px 8px 16px 0px rgba (0,0,0,0,2);
+	z-index				: 1;
+}
+
+#menu .dropdown-content a {
+	color 				: black;
+	padding 			: 12px 16px;
+	text-decoration 	: none;
+	display 			: block;
+	text-align 			: left;
+}
+
+#menu .dropdown-content a:hover {
+	background-color   	: red;
+}
+
+#menu .dropdown:hover .dropdown-content {
+	display 			: block;
+} 
+/* Pengaturan Running Text */
+#running_text {
+	width 				: 100%;
+	height 				: 30px;
+	padding-top 		: 10px;
+	padding-bottom 		: 10px;
+	margin 				: 5px 0 5px 0;
+	background-color 	: #000080;
+	font-size 			: 25px;
+	color 				: white;
+	position 			: relative;
+}
+
+/* Pengaturan Artikel */
+#Artikel {
+	padding 			: 5px;
+	width 				: 70%;
+	height 				: auto;
+	background-color 	: skyblue;
+	position 			: relative;
+	margin-top 			: 5px;
+}
+
+.isi_artikel {
+	width 				: 98%;
+	height 				: 220px;
+	margin-bottom 		: 5px;
+	padding 			: 5px;
+	background-color    : #bc9d64;
+	
+}
+
+.gambar_artikel {
+	float 				: left;
+	height 				: 150px;
+	width 				: 200px;
+	margin-right 		: 5px;
+	margin-top			: 1px;
+	border 				: 1px s-olid #dddddd;
+	max-width: 100%; /* Gambar tidak akan lebih lebar dari kontainer */
+    height: auto; /* Menjaga rasio aspek */
+}
+
+.isi_artikel h2 {
+	font-size 			: 20px;
+	font-weight 		: bold;
+	margin-top 			: 4px;
+	margin-bottom 		: 3px;
+	color 				: #ffffff;
+}
+
+.isi_artikel b {
+	color 				: blue;
+	background 			: #DDDDDD;
+	padding 			: 3px;
+	font-size			: 12px;
+}
+
+.isi_artikel p {
+	font-size 			: 12px;
+	text-align  		: justify;
+}
+
+.isi_artikel a {
+	font-size			: 14px;
+	font-weight 		: bold;
+}
+
+.isi_artikel a:hover {
+	font-size 			: 16px;
+	font-weight 		: bold;
+	color 				: yellow;
+}
+
+/* Pengaturan Sidebar */
+#sidebar {
+	padding 			: 5px;
+	width 				: 27%;
+	position 			: relative;
+	float 				: right;
+	border-style 		: dotted;
+	border-width 		: 1px;
+	background-color 	: skyblue;
+}
+
+.widget {
+	width 				: 99%;
+	border-bottom 		: 5px;
+	background 			: #ffffff;
+	border-top 			: 1px solid #DFDFDF;
+	border-bottom 		: 1px solid #DFDFDF;
+	border-right		: 1px solid #DFDFDF;
+	border-left 		: 1px solid #DFDFDF;
+	font-size 			: 100%;
+	margin 				: 0px 0px 5px 0px;
+}
+
+.gambar_iklan {
+	width 				: 100%;
+	height 				: 180px;
+					
+}
+
+.judul_widget {
+	padding 			: 5px 10px 5px 10px;
+	margin 				: 0px;
+	text-align 			: center;
+	font-weight 		: bold;
+	font-size 			: 15px;
+	margin-bottom 		: 5px;
+	color 				: black;
+}
+
+.widget ul {
+	margin 				: 0px;
+	padding 			: 0px;
+	list-style-type 	: none;
+}
+
+.widget li {
+	padding 			: 0px;
+	color 				: #333333;
+}
+
+.widget li a {
+	color 				: #333333;
+	border-bottom		: 1px dotted #cccccc;
+	text-decoration 	: none;
+	display 			: block;
+	margin-bottom  		: 5px;
+	padding 			: 4px 5px 3px 10px;
+}
+
+/* Pengaturan Footer */
+#footer {
+	width 				: 100%;
+	height 				: 25px;
+	margin-top 			: 5px;
+	padding-top 		: 5px;
+	color 				: white;
+	font-size 			: 12px;
+	text-align 			: center;
+	background-color    : black;
+	position 			: relative;
+	clear 				: both;
+}
+
+/* Pengaturan Galeri */
+#galeri {
+	padding 			: 5px;
+	width 				: 70%;
+	height 				: auto;
+	background-color 	: skyblue;
+	position			: relative;
+	margin-top 			: 5px;
+}
+
+
+#galeri h1 {
+	text-align			: center
+}
+
+
+.isi_galeri {
+	border				: 4px solid #000080;
+	margin 				: 20px;
+	padding 			: 10px;
+	width 				: 250px;
+	height 				: 150px;
+}
+
+
